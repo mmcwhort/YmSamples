@@ -12,7 +12,7 @@ This small data set contains 5 tables with actual scores from English Premier Le
 * `premdb_external_objects.ddl`: creates an external storage, an external format, and an external location
 * `newmatchstats.ddl`: creates the newmatchstats table
 * `queries/*.sql`: a few queries that you can run
-* 
+*
 ### Tables
 
  1. **match:** Full-time and half-time scores for matches with foreign keys for the season, home team, and away team values
@@ -21,7 +21,7 @@ This small data set contains 5 tables with actual scores from English Premier Le
  4. **hometeam:** Home team ID and team name, used for joins
  5. **awayteam:** Away team ID and team name, used for joins
 
-An additional table, **newmatchstats**, is available but does not contain meaningful data. It is used in the tutorial to demonstrate a very simple load of 25 million rows. 
+An additional table, **newmatchstats**, is available but does not contain meaningful data. It is used in the tutorial to demonstrate a very simple load of 25 million rows.
 
 ### Samples
 
@@ -42,3 +42,5 @@ where t1.season_name=t2.season_name
 order by 1,2;
 
 ```
+
+

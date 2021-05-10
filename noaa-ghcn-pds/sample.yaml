@@ -1,0 +1,19 @@
+name: NOAA GHCN-D
+id: noaa-ghcn-pds
+icon: noaa-ghcn-pds/icon.svg
+description: '**NOAA GHCN PDS**: 3B rows of weather observations for over 200 years of a large number
+of land-based weather measurement stations.'
+actions:
+- name: Setup
+  script: noaa-ghcn-pds/noaa-ghcn-pds-setup.sql
+- name: Load
+  script: noaa-ghcn-pds/noaa-ghcn-pds-all.sql
+author: Yellowbrick Staff
+files:
+- dir: queries
+  include: sql
+size: 362807296
+hidden: true
+database: yellowbrick_trial
+schema: noaa_ghcn_pds
+

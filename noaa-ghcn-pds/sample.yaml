@@ -13,7 +13,6 @@ files:
 - dir: queries
   include: sql
 size: 362807296
-hidden: true
 database: yellowbrick_trial
 schema: noaa_ghcn_pds
 

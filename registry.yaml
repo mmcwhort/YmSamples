@@ -54,7 +54,7 @@ schema: tpcds_sf1000
 name: NOAA GHCN-D
 id: noaa-ghcn-pds
 icon: noaa-ghcn-pds/icon.svg
-description: '**NOAA GHCN PDS**: 3B rows of weather observations for over 400 years of a large number
+description: '**NOAA GHCN PDS**: 3B rows of weather observations for over 200 years of a large number
 of land-based weather measurement stations.'
 actions:
 - name: Setup
@@ -66,7 +66,6 @@ files:
 - dir: queries
   include: sql
 size: 362807296
-hidden: true
 database: yellowbrick_trial
 schema: noaa_ghcn_pds
 
